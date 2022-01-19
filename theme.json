@@ -24,14 +24,14 @@
 */
 {
     "Name": "Chirpy",
-    "Version": "1.0.1",
-    "Author": "Ctaoist",
+    "Version": "2.0.0",
+    "Author": "wiselike",
     "Icon": "avatar.jpg",
     "Avatar": "avatar.jpg",
-    "AuthorUrl": "https://blog.ctaoist.cn",
-    "PostAuthor": "ctaoist",
-    "Title": "不见春山",
-    "SubTitle": "骑马倚斜桥，满楼红袖招。",
+    "AuthorUrl": "https://wiselike.f3322.net:8088",
+    "PostAuthor": "wiselike",
+    "Title": "漫语",
+    "SubTitle": "记录生活",
     "ReadNumType": "",
     "GoogleAnalytics": {
         "Id": ""
@@ -54,8 +54,7 @@
         }
     },
     "SocialLinks": [
-        {"Title": "github", "Url": "https://github.com/ctaoist"},
-        {"Title": "twitter", "Url": "https://twitter.com/ctaoist"}
+        {"Title": "github", "Url": "https://wiselike.f3322.net:8088"}
     ],
     "FriendLinks": [
         {"Title": "Leanote Home", "Url": "http://leanote.com"},

@@ -118,7 +118,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
  <!-- Google Code Pretty -->
  <script src="//cdn.jsdelivr.net/npm/code-prettify@0.1.0/src/prettify.min.js"></script>
- <link href="//cdn.jsdelivr.net/gh/ctaoist/leanote@cdev/public/js/google-code-prettify/prettify.min.css" type="text/css" rel="stylesheet"/>
+ <link href="{{$.themeBaseUrl}}/prettify.css" type="text/css" rel="stylesheet"/>
  <!-- <link href="{{$.prettifyCssUrl}}" type="text/css" rel="stylesheet"/> -->
  <!-- <script src="{{$.prettifyJsUrl}}"></script> -->
  
@@ -127,7 +127,7 @@
 
 <!-- markdown 调用markdown来解析得到html -->
 {{if $.post.IsMarkdown }}
-<script src="//cdn.jsdelivr.net/gh/ctaoist/leanote@cdev/public/libs/md2html/md2html_no_escape.min.js"></script>
+<script src="{{$.themeBaseUrl}}/md2html_no_escape.js"></script>
 <!-- <script src="/public/libs/md2html/md2html_no_escape.min.js"></script> -->
 
 <script>
